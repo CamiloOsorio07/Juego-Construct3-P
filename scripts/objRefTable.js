@@ -69,8 +69,11 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Turret.Acts.SetEnabled,
 		C3.Plugins.Sprite.Cnds.OnDestroyed,
 		C3.Plugins.Tilemap.Acts.Destroy,
+		C3.Plugins.System.Cnds.OnLayoutEnd,
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.System.Acts.ResetEventVar,
+		C3.Plugins.System.Acts.ResetGlobals,
+		C3.Plugins.System.Acts.ResetPersisted,
 		C3.Plugins.Button.Cnds.OnClicked
 	];
 };
